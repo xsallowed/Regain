@@ -1,0 +1,42 @@
+{
+  "items": [
+    {
+      "id": "inj-001",
+      "title": "SOC Alert: Unusual SMB traffic",
+      "meta": "09:14 \u2022 SIEM",
+      "badge": "URGENT",
+      "details": "Spike in east-west SMB to FIN-APP-02. Possible lateral movement. Correlates with abnormal authentications.",
+      "actions": [
+        {
+          "id": "open-evidence",
+          "label": "Open Evidence"
+        },
+        {
+          "id": "assign",
+          "label": "Assign"
+        },
+        {
+          "id": "ack",
+          "label": "Acknowledge"
+        }
+      ]
+    },
+    {
+      "id": "inj-002",
+      "title": "User report: files renamed",
+      "meta": "09:18 \u2022 Email",
+      "badge": "HIGH",
+      "details": "Finance user reports renamed files and access denied. Potential encryption underway.",
+      "actions": [
+        {
+          "id": "contact-user",
+          "label": "Contact User"
+        },
+        {
+          "id": "create-task",
+          "label": "Create Task"
+        }
+      ]
+    }
+  ]
+}

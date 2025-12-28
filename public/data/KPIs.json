@@ -1,0 +1,26 @@
+{
+  "pills": [
+    {
+      "label": "T+00:34",
+      "tone": "neutral",
+      "details": "Elapsed time since scenario start.",
+      "actions": [
+        {
+          "id": "reset",
+          "label": "Reset Timer"
+        }
+      ]
+    },
+    {
+      "label": "Severity: High",
+      "tone": "warning",
+      "details": "High severity: potential business disruption.",
+      "actions": [
+        {
+          "id": "open-criteria",
+          "label": "View Criteria"
+        }
+      ]
+    }
+  ]
+}

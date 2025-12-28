@@ -1,0 +1,25 @@
+{
+  "headline": "Current Situation",
+  "lines": [
+    {
+      "text": "Suspicious lateral movement in Finance subnet.",
+      "details": "SMB east-west spikes + auth anomalies.",
+      "actions": [
+        {
+          "id": "open-map",
+          "label": "Open Map"
+        }
+      ]
+    },
+    {
+      "text": "Shadow copy deletion observed on FIN-APP-02.",
+      "details": "vssadmin delete shadows executed. Backup impact likely.",
+      "actions": [
+        {
+          "id": "open-edr",
+          "label": "Open EDR"
+        }
+      ]
+    }
+  ]
+}

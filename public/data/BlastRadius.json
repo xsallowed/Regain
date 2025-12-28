@@ -1,0 +1,24 @@
+{
+  "status": "amber",
+  "summary": {
+    "affectedServices": 6,
+    "affectedApplications": 14,
+    "affectedUsers": 8200,
+    "affectedSites": 3
+  },
+  "details": {
+    "services": [
+      { "name": "Online Banking", "impact": "red", "notes": "Login/API errors increasing" },
+      { "name": "Payments Gateway", "impact": "amber", "notes": "Latency and intermittent declines" }
+    ],
+    "applications": [
+      { "name": "SSO", "impact": "amber" },
+      { "name": "EDR Console", "impact": "green" }
+    ],
+    "sites": [
+      { "name": "London DC", "impact": "amber" },
+      { "name": "Frankfurt DC", "impact": "red" }
+    ],
+    "notes": "Blast radius indicates potential lateral movement affecting IAM + payment processing."
+  }
+}

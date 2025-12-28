@@ -1,0 +1,9 @@
+{
+  "players": [
+    { "id": "p1", "name": "Incident Commander" },
+    { "id": "p2", "name": "SOC Lead" },
+    { "id": "p3", "name": "IR Analyst" },
+    { "id": "p4", "name": "IT Ops" },
+    { "id": "p5", "name": "Comms Lead" }
+  ]
+}

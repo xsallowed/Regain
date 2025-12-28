@@ -1,0 +1,21 @@
+{
+  "items": [
+    {
+      "id": "t-001",
+      "time": "09:05",
+      "text": "Initial alert triggered in SIEM",
+      "badge": "ALERT",
+      "details": "Rule: suspicious SMB + auth failures. Source: SIEM correlation v2.",
+      "actions": [
+        {
+          "id": "view-rule",
+          "label": "View Rule"
+        },
+        {
+          "id": "pin",
+          "label": "Pin"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "items": [
+    {
+      "id": "d-001",
+      "title": "Isolate FIN-APP-02",
+      "body": "Stops lateral movement; may disrupt Finance.",
+      "highlight": true,
+      "details": "Network isolate host FIN-APP-02 via EDR or switch ACL. Confirm dependencies before action.",
+      "actions": [
+        {
+          "id": "approve",
+          "label": "Approve"
+        },
+        {
+          "id": "defer",
+          "label": "Defer"
+        },
+        {
+          "id": "request-info",
+          "label": "Request Info"
+        }
+      ]
+    }
+  ]
+}

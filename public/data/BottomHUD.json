@@ -1,0 +1,39 @@
+{
+  "left": [
+    {
+      "label": "Comms",
+      "value": "2 pending",
+      "details": "Two inbound messages awaiting triage.",
+      "actions": [
+        {
+          "id": "open-comms",
+          "label": "Open Comms"
+        }
+      ]
+    },
+    {
+      "label": "Evidence",
+      "value": "6 artefacts",
+      "details": "6 artefacts collected. 2 awaiting hashing.",
+      "actions": [
+        {
+          "id": "open-evidence",
+          "label": "Open Evidence"
+        }
+      ]
+    }
+  ],
+  "right": [
+    {
+      "label": "Runbook",
+      "value": "Open",
+      "details": "IR runbook is available for this scenario.",
+      "actions": [
+        {
+          "id": "open-runbook",
+          "label": "Open Runbook"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "items": [
+    {
+      "id": "task-001",
+      "text": "Yet another task",
+      "status": "Open",
+      "timeLeftMinutes": 15,
+      "assignedTo": "",
+      "details": "ABC",
+      "actions": [
+                  { "id": "assign-to", "label": "Assign to" },
+                  { "id": "act", "label": "Act" },
+                  { "id": "defer", "label": "Defer" }
+                  ]
+    },
+    {
+      "id": "task-002",
+      "text": "Confirm scope of affected hosts",
+      "status": "Open",
+      "timeLeftMinutes": 12,
+      "assignedTo": "",
+      "details": "Validate which endpoints show file rename/encryption. Check EDR isolation status.",
+      "actions": [
+                  { "id": "assign-to", "label": "Assign to" },
+                  { "id": "act", "label": "Act" },
+                  { "id": "defer", "label": "Defer" }
+                  ]
+    },
+    {
+      "id": "task-002",
+      "text": "Collect triage artefacts from FIN-APP-02",
+      "status": "In Progress",
+      "timeLeftMinutes": 4,
+      "assignedTo": "IR Analyst",
+      "details": "Pull triage bundle from EDR and save to evidence store.",
+      "actions": [
+        { "id": "assign-to", "label": "Assign to" },
+        { "id": "act", "label": "Act" },
+        { "id": "defer", "label": "Defer" }
+      ]
+    }
+  ]
+}

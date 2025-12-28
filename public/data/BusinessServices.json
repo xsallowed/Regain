@@ -1,0 +1,31 @@
+{
+  "items": [
+    {
+      "id": "svc-001",
+      "name": "Online Banking",
+      "status": "red",
+      "users": 1200000,
+      "dependents": ["Identity Service", "Payments Gateway", "Fraud Detection"],
+      "revenueAffectedGbpPerHour": 85000,
+      "details": "Login failures observed. IAM/API errors spiking."
+    },
+    {
+      "id": "svc-002",
+      "name": "Card Payments",
+      "status": "amber",
+      "users": 420000,
+      "dependents": ["Payments Gateway", "Merchant Portal"],
+      "revenueAffectedGbpPerHour": 120000,
+      "details": "Intermittent declines and increased latency."
+    },
+    {
+      "id": "svc-003",
+      "name": "Email & Collaboration",
+      "status": "green",
+      "users": 18000,
+      "dependents": ["SSO", "Endpoint Management"],
+      "revenueAffectedGbpPerHour": 0,
+      "details": "Operating normally."
+    }
+  ]
+}

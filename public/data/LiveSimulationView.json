@@ -1,0 +1,28 @@
+{
+  "title": "Live Simulation View",
+  "subtitle": "Network / Systems canvas",
+  "tiles": [
+    {
+      "label": "Blast Radius",
+      "value": "Finance",
+      "details": "Current suspected impact boundary: Finance subnet.",
+      "actions": [
+        {
+          "id": "view-scope",
+          "label": "View Scope"
+        }
+      ]
+    },
+    {
+      "label": "Signals",
+      "value": "EDR + SIEM",
+      "details": "EDR detections: 3. SIEM alerts: 12.",
+      "actions": [
+        {
+          "id": "open-signals",
+          "label": "Open Signals"
+        }
+      ]
+    }
+  ]
+}

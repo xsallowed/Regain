@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "id": "u-001",
+      "title": "Update: Encryption suspected",
+      "body": "Multiple endpoints report file rename activity.",
+      "details": "Two additional endpoints reported rename patterns consistent with ransomware note staging.",
+      "actions": [
+        {
+          "id": "share",
+          "label": "Share"
+        },
+        {
+          "id": "log",
+          "label": "Log Update"
+        }
+      ]
+    }
+  ]
+}

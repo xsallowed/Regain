@@ -1,0 +1,11 @@
+{
+  "title": "Incident Command Dashboard",
+  "org": "Acme Group",
+  "role": "Incident Commander",
+  "scenario": "Ransomware Staging",
+  "icons": [
+    "settings",
+    "notifications",
+    "help"
+  ]
+}

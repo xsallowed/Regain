@@ -1,0 +1,9 @@
+{
+  "economicImpactGbp": 1200000,
+  "brandReputation": 78,
+  "employeePublicSafety": 62,
+  "systemDowntimeHours": 16,
+  "creditProtection": "green",
+  "regulatoryRisk": "red",
+  "dataSubNotice": "amber"
+}
